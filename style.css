@@ -1,0 +1,114 @@
+body{
+    margin: 0px;
+    background-color: #E5E5E5;
+}
+
+/* cabeçalho */
+
+.header{
+    background-color: rgb(209, 209, 209);
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name{
+    margin: auto 20px;
+}
+
+.header-right{
+    margin: auto 20px;
+}
+
+/* conteudo */
+
+.main{
+    width: auto;
+    height: auto;
+}
+
+.img-bg{
+    width: 100%;
+}
+
+.content{
+    padding: 0px 300px;
+}
+
+.text{
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 20px;
+}
+
+/* rodapé */
+
+.footer{
+    background-color: black;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+p#text{
+    color: #E5E5E5;
+    font-size: 10px;
+    margin: 10px 30px;
+}
+
+@media only screen and (max-weidth: 768px) {
+    .header{
+        background-color: rgb(209, 209, 209);
+        position: absolute;
+        width: 100%;
+        height: 50px;
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .name{
+        margin: auto 20px;
+    }
+    
+    .header-right{
+        margin: auto 20px;
+    }
+    
+    /* conteudo */
+    
+    .main{
+        width: auto;
+        height: auto;
+    }
+    
+    .img-bg{
+        width: 100%;
+    }
+    
+    .content{
+        padding: 0px 300px;
+    }
+    
+    .text{
+        font-family: 'Ubuntu Mono', monospace;
+        font-size: 20px;
+    }
+    
+    /* rodapé */
+    
+    .footer{
+        background-color: black;
+        height: 100px;
+        display: flex;
+        align-items: center;
+    }
+    
+    p#text{
+        color: #E5E5E5;
+        font-size: 10px;
+        margin: 10px 30px;
+    }
+}
